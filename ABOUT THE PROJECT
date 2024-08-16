@@ -1,0 +1,42 @@
+Caesar Cipher Script
+This Python script implements the Caesar Cipher encryption and decryption technique. 
+The Caesar Cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. 
+This simple encryption method is useful for learning basic cryptographic concepts.
+
+-> Features
+*/Encryption and Decryption: Perform both encryption and decryption using the Caesar Cipher.
+*/Custom Shift Values: Specify the shift value to control the amount of displacement in the cipher.
+
+-> How It Works
+The script uses a user-defined shift value to transform the input text. 
+Positive shift values encrypt the message by shifting characters forward in the alphabet, while negative shift values decrypt the message by shifting characters backward.
+
+Usage
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+Run the Script:
+
+bash
+Copy code
+python caesar_cipher.py
+Input Prompts:
+
+Enter your message: Provide the text you want to encrypt or decrypt.
+Enter the shift value: Specify a positive integer for encryption or a negative integer for decryption.
+Enter 'encrypt' or 'decrypt': Choose the mode of operation.
+Example
+To encrypt the message "HelloWorld" with a shift value of 3:
+
+Input: HelloWorld, 3, encrypt
+Output: KhoorZruog
+To decrypt the message "KhoorZruog" with a shift value of -3:
+
+Input: KhoorZruog, -3, decrypt
+Output: HelloWorld
+Notes
+The script handles both uppercase and lowercase letters.
+Non-alphabetical characters are not affected by the cipher and are preserved in the output.
